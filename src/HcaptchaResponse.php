@@ -3,7 +3,6 @@
 
 namespace neverbehave;
 
-
 class HcaptchaResponse
 {
     private $success = false;

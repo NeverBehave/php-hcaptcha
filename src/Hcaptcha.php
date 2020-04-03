@@ -1,6 +1,5 @@
 <?php
 
-
 namespace neverbehave;
 
 class Hcaptcha
@@ -46,6 +45,6 @@ class Hcaptcha
         $context = stream_context_create($options);
         $result = json_decode(file_get_contents($this->api, false, $context));
 
-        return ($result);
+        return new  HcaptchaResponse($result);
     }
 }

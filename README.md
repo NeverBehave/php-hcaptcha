@@ -1,4 +1,4 @@
-# HCaptcha PHP 
+# PHP HCaptcha
 
 Server side verification package
 
