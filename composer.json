@@ -1,0 +1,26 @@
+{
+  "name": "neverbehave/hcaptcha",
+  "type": "library",
+  "description": "Wrapper of hcaptcha",
+  "keywords": [
+    "hcaptcha"
+  ],
+  "homepage": "https://github.com/neverbehave/hcaptcha",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "NeverBehave",
+      "email": "packgist@never.pet",
+      "homepage": "https://xinhao.lu",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "neverbehave\\Hcaptcha\\": "src/"
+    }
+  },
+  "require": {
+    "ext-json": "*"
+  }
+}
