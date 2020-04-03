@@ -1,6 +1,5 @@
 <?php
 
-
 namespace neverbehave;
 
 class HcaptchaResponse
