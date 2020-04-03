@@ -10,14 +10,9 @@ Server side verification package
 composer require neverbehave/hcaptcha
 ```
 
-2. Import the package
+2. Create an instance
 ```php
-use neverbehave\Hcaptcha;
-```
-
-3. Create an instance
-```php
-$hcaptcha = new Hcaptcha('Your API KEY');
+$hcaptcha = new neverbehave\Hcaptcha('Your API KEY');
 
 // Generate Challenge
 // Instance of HcaptchaResponse
