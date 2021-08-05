@@ -24,7 +24,7 @@ class HcaptchaResponse
      */
     public function getErrors()
     {
-        return $this->error;
+        return $this->errors;
     }
 
     /**
