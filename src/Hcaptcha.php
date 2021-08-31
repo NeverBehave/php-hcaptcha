@@ -43,7 +43,7 @@ class Hcaptcha
             ));
 
         $context = stream_context_create($options);
-        $result = json_decode(file_get_contents($this->api, false, $context));
+        $result = json_decode(file_get_contents($this->api, false, $context),true);
 
         return new  HcaptchaResponse($result);
     }
