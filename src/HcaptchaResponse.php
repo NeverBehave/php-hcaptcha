@@ -13,7 +13,7 @@ class HcaptchaResponse
         if ($response === null) {
             $this->errors[] = 'json-parse-failure';
         } else {
-            $this->success = $response->success;
+            $this->success = $response['success'];
             $this->errors = $response['error-codes'];
             $this->raw = $response;
         }
